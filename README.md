@@ -5,18 +5,22 @@ Class for quering and manipulating one-level nested list of strings (slide ids)
 
 ## API
 
-### `size()`
-
+### `List#size()`
 Total number of items in the list
 
-### `get(hIndex, vIndex)`
-
+### `List#get(hIndex, vIndex)`
 Get the id for an item in the list
 
-### `getIndex(item)`
-
+### `List#getIndex(item)`
 Get the index of an item in the list
 
-### `getType(hIndex)`
-
+### `List#getType(hIndex)`
 Get type of item at index (array or string)
+
+### `List#inRange(hIndex)`
+
+### `List#getList()`
+
+### `List#setList(arr)`
+
+### `List#goTo(index)`
